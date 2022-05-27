@@ -5,7 +5,7 @@
   font-family: Lato, sans-serif;
 }
 
-.aaa {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
@@ -16,31 +16,32 @@
   width: 100%;
 }
 
-.aaa .more_inf {
+.header__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
 
-  .aaa {
+  .header {
     text-align: center;
   }
 
 }
 
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
 
-.task {
+.label,
+.input-text {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.add-item__wrapper {
   display: flex;
   margin-top: 20px;
 }
@@ -154,11 +155,11 @@ button {
   display: none;
 }
 
-.editMode .input-text {
+.list-item_edit .input-text {
   display: inline-block;
   width: 224px;
 }
 
-.editMode .label {
+.list-item_edit .label {
   display: none;
 }
